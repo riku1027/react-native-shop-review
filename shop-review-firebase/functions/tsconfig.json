@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2017",
+    "skipLibCheck": true // すべての型定義ファイル（*.d.ts）の型チェックをスキップする
+    // "noStrictGenericChecks": true // 関数型の汎用シグネチャの厳密なチェックを無効にする
+  },
+  "compileOnSave": true,
+  "include": ["src"]
+}
